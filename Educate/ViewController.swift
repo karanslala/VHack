@@ -13,6 +13,10 @@ import Parse
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
         super.viewDidLoad()
         sleep(1)
        // let testObject = PFObject(className: "TestObject")
