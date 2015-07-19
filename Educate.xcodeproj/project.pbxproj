@@ -40,8 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EE4BDDFE1B5B67E700A6D05F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Downloads/parse-library-1.7.5/Bolts.framework"; sourceTree = "<group>"; };
-		EE4BDE001B5B67EF00A6D05F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Downloads/parse-library-1.7.5/Parse.framework"; sourceTree = "<group>"; };
+		EE4BDDFE1B5B67E700A6D05F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Documents/parse-library-1.7.5/Bolts.framework"; sourceTree = "<group>"; };
+		EE4BDE001B5B67EF00A6D05F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Documents/parse-library-1.7.5/Parse.framework"; sourceTree = "<group>"; };
 		EE4BDE021B5B68A100A6D05F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		EE4BDE041B5B68AB00A6D05F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		EE4BDE061B5B68B600A6D05F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -401,7 +401,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"/Users/klala/Downloads/parse-library-1.7.5",
+					"/Users/gpagliaro/Documents/parse-library-1.7.5",
 				);
 				INFOPLIST_FILE = Educate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
@@ -417,7 +417,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"/Users/klala/Downloads/parse-library-1.7.5",
+					"/Users/gpagliaro/Documents/parse-library-1.7.5",
 				);
 				INFOPLIST_FILE = Educate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
