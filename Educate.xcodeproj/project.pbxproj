@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0628BE1B5C075400D75293 /* youtubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE814C8E1B5C024700CAF823 /* youtubeViewController.swift */; };
+		EE0628C01B5C108900D75293 /* vid2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0628BF1B5C108900D75293 /* vid2.swift */; };
 		EE4BDDFF1B5B67E700A6D05F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4BDDFE1B5B67E700A6D05F /* Bolts.framework */; };
 		EE4BDE011B5B67EF00A6D05F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4BDE001B5B67EF00A6D05F /* Parse.framework */; };
 		EE4BDE031B5B68A100A6D05F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4BDE021B5B68A100A6D05F /* CFNetwork.framework */; };
@@ -21,6 +23,9 @@
 		EE4BDE151B5B68FF00A6D05F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4BDE141B5B68FF00A6D05F /* libsqlite3.dylib */; };
 		EE4BDE171B5B690900A6D05F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4BDE161B5B690900A6D05F /* Accounts.framework */; };
 		EE4BDE191B5B691000A6D05F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4BDE181B5B691000A6D05F /* Social.framework */; };
+		EE9782891B5BDBD60009C619 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9782881B5BDBD60009C619 /* Course.swift */; };
+		EE97828B1B5BDDA40009C619 /* CourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE97828A1B5BDDA40009C619 /* CourseTableViewController.swift */; };
+		EE97828D1B5BFE4B0009C619 /* youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE97828C1B5BFE4B0009C619 /* youtube.swift */; };
 		EEB679CA1B5AD379008DA9EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB679C91B5AD379008DA9EA /* AppDelegate.swift */; };
 		EEB679CC1B5AD379008DA9EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB679CB1B5AD379008DA9EA /* ViewController.swift */; };
 		EEB679CF1B5AD379008DA9EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB679CD1B5AD379008DA9EA /* Main.storyboard */; };
@@ -40,8 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EE4BDDFE1B5B67E700A6D05F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Documents/parse-library-1.7.5/Bolts.framework"; sourceTree = "<group>"; };
-		EE4BDE001B5B67EF00A6D05F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Documents/parse-library-1.7.5/Parse.framework"; sourceTree = "<group>"; };
+		EE0628BF1B5C108900D75293 /* vid2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vid2.swift; sourceTree = "<group>"; };
+		EE4BDDFE1B5B67E700A6D05F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Downloads/parse-library-1.7.5/Bolts.framework"; sourceTree = "<group>"; };
+		EE4BDE001B5B67EF00A6D05F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Downloads/parse-library-1.7.5/Parse.framework"; sourceTree = "<group>"; };
 		EE4BDE021B5B68A100A6D05F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		EE4BDE041B5B68AB00A6D05F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		EE4BDE061B5B68B600A6D05F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,6 +60,10 @@
 		EE4BDE141B5B68FF00A6D05F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		EE4BDE161B5B690900A6D05F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		EE4BDE181B5B691000A6D05F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		EE814C8E1B5C024700CAF823 /* youtubeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = youtubeViewController.swift; path = EducateTests/youtubeViewController.swift; sourceTree = SOURCE_ROOT; };
+		EE9782881B5BDBD60009C619 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		EE97828A1B5BDDA40009C619 /* CourseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseTableViewController.swift; sourceTree = "<group>"; };
+		EE97828C1B5BFE4B0009C619 /* youtube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = youtube.swift; sourceTree = "<group>"; };
 		EEB679C41B5AD379008DA9EA /* Educate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Educate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB679C81B5AD379008DA9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEB679C91B5AD379008DA9EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +146,11 @@
 				EEB679C91B5AD379008DA9EA /* AppDelegate.swift */,
 				EEB679CB1B5AD379008DA9EA /* ViewController.swift */,
 				EEB679CD1B5AD379008DA9EA /* Main.storyboard */,
+				EE0628BF1B5C108900D75293 /* vid2.swift */,
+				EE814C8E1B5C024700CAF823 /* youtubeViewController.swift */,
+				EE97828C1B5BFE4B0009C619 /* youtube.swift */,
+				EE9782881B5BDBD60009C619 /* Course.swift */,
+				EE97828A1B5BDDA40009C619 /* CourseTableViewController.swift */,
 				EEB679D01B5AD379008DA9EA /* Images.xcassets */,
 				EEB679D21B5AD379008DA9EA /* LaunchScreen.xib */,
 				EEB679C71B5AD379008DA9EA /* Supporting Files */,
@@ -268,8 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE9782891B5BDBD60009C619 /* Course.swift in Sources */,
 				EEB679CC1B5AD379008DA9EA /* ViewController.swift in Sources */,
+				EE97828B1B5BDDA40009C619 /* CourseTableViewController.swift in Sources */,
+				EE97828D1B5BFE4B0009C619 /* youtube.swift in Sources */,
+				EE0628BE1B5C075400D75293 /* youtubeViewController.swift in Sources */,
 				EEB679CA1B5AD379008DA9EA /* AppDelegate.swift in Sources */,
+				EE0628C01B5C108900D75293 /* vid2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +421,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"/Users/gpagliaro/Documents/parse-library-1.7.5",
+					"/Users/klala/Downloads/parse-library-1.7.5",
 				);
 				INFOPLIST_FILE = Educate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
@@ -417,7 +437,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"/Users/gpagliaro/Documents/parse-library-1.7.5",
+					"/Users/klala/Downloads/parse-library-1.7.5",
 				);
 				INFOPLIST_FILE = Educate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
