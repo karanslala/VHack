@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CEF82ECD-8854-4D61-A1BB-C4EB81ADC80A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Educate</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2A712E76E913E45C49BE9F2AF7F08FEB2173032F</key>
+		<string>https://github.com/karanslala/VHack.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Educate.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2A712E76E913E45C49BE9F2AF7F08FEB2173032F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/karanslala/VHack.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2A712E76E913E45C49BE9F2AF7F08FEB2173032F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2A712E76E913E45C49BE9F2AF7F08FEB2173032F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Educate</string>
+		</dict>
+	</array>
+</dict>
+</plist>

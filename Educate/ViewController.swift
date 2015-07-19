@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import Darwin
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        sleep(2)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -23,3 +25,4 @@ class ViewController: UIViewController {
 
 }
 
+ 
